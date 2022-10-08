@@ -6,3 +6,47 @@ html { box-sizing: border-box;}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+/* General Styles */
+
+html {
+    
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+/* Navigation */
+nav ul {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header {
+    background-image: url(./animal-land-assets/image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    
+}
+
+h1 {
+    font-family: 'Fredericka the Great';
+    font-size: 120px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 117px;
+    
+}

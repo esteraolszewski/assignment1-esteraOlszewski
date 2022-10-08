@@ -8,22 +8,37 @@
 
     <link rel="stylesheet" href="./styles.css">
 
+    <link>
+    @import
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Fredericka+the+Great&display=swap" rel="stylesheet"> 
+
 </head>
 <body>
+    <header>
     <!-- Navigation Section -->
     <nav>
-        <ul>
-            <li><a href="home">Home</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="blog">Blog</a></li>
-            <li><a href="contact">Contact</a></li>
-        </ul>
+        <div class="wrapper">
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="blog">Blog</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     <!-- Header Section -->
                                 <!-- Add icons -->
-    <header>
+    
         <div class="wrapper">
             <h1>Animal Refuge</h1>
+            <ul>
+                <li><img src="./instagram.svg" alt="Instagram logo"><a href=""></a></img></li>
+                <li><img src="" alt=""><a href=""></a></img></li>
+                <li><img src="" alt=""><a href=""></a></img></li>
+                <li><img src="" alt=""><a href=""></a></img></li>
+            </ul>
         </div>
     </header>
     <!-- Main Section 1 -->
@@ -50,11 +65,13 @@
         <!-- Main Section 3 -->
                                  <!-- Add icons -->
         <section class="icons">
-            <ul>
-                <li><a href="spotlight">Animal Spotlight</a></li>
-                <li><a href="events">Events</a></li>
-                <li><a href="merch">Merch</a></li>
-            </ul>
+            <div class="wrapper">
+                <ul>
+                    <li><a href="spotlight">Animal Spotlight</a></li>
+                    <li><a href="events">Events</a></li>
+                    <li><a href="merch">Merch</a></li>
+                </ul>
+            </div>
         </section>
         <!-- Main Section 4 -->
         <section class="readmore">
@@ -81,13 +98,14 @@
             <form action="sendEmail.php">
                 <label for="email">Subscribe to our newsletter to stay updated.</label>
                 <input type="text" id="email" name="email" placeholder="email address">
+                <button type="submit">Subscribe</button>
             </form>
             <h5>Contact</h5>
             <p>info@email.com | 123-456-7890 123 come road, Toronto, ON A5A 5A5, Canada</p>
         </div>
 
         <!-- How to seperate lowest footer -->
-        <p class="foot">Copyright © 2019 HackerYou</p>
+        <p class="wrapper">Copyright © 2019 HackerYou</p>
     </footer>
     
 </body>
