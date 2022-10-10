@@ -60,8 +60,20 @@ h1 {
     text-align: right;
 }
 
-/* First Section */
+.logo li {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 12px;
+    
+}
 
+/* First Section */
+.story .wrapper {
+    display: flex;
+    padding: 80px;
+}
 
 .story img {
     width: 300px;
@@ -130,8 +142,15 @@ h3 {
     color: white;
     text-transform: uppercase;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-decoration: none; 
+    padding: 40px;
+}
+
+.icons img {
+    width: 80px;
+    height: 80px;
+    display: flex;
 }
 
 /* Fourth Section */
