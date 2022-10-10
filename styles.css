@@ -66,13 +66,14 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     margin: 12px;
-    
 }
 
 /* First Section */
 .story .wrapper {
     display: flex;
+    flex-wrap: wrap;
     padding: 80px;
+    
 }
 
 .story img {
@@ -151,11 +152,15 @@ h3 {
     width: 80px;
     height: 80px;
     display: flex;
+    
 }
+
+
 
 /* Fourth Section */
 .readmore {
     background-color: white;
+    
 }
 
 h4 {
@@ -194,12 +199,23 @@ h4 {
     width: 50%;
 }
 
+.container {
+    display: flex; 
+    flex-wrap: wrap;
+     
+}
+
+.box {
+   
+}
+
 /* Fifth Section */
 .foot ul {
     font-family: 'Cormorant Garamond', serif;
     font-size: 22px;
     color: white;
     text-transform: uppercase;
+    line-height: 35px;
 }
 
 h5 {
@@ -243,6 +259,28 @@ input {
     color: white;
 }
 
+.contain {
+    display: flex;
+}
+
+.one {
+    padding: 50px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 50px;
+}
+
 /* Footer */
 footer {
     background-color: black;
@@ -252,3 +290,7 @@ footer {
     text-align: center;
     padding: 0.5px;
 }
+
+/* Media Queries */
+
+@media (max-width: )
