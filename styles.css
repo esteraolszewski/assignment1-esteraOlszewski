@@ -34,7 +34,9 @@ nav ul {
     color: white;
     text-transform: uppercase;
     display: flex;
-    justify-content: space-between left;
+    justify-content: space-evenly;
+    margin-right: 730px;
+    
     
 }
 
@@ -43,7 +45,9 @@ header {
     background-image: url(./animal-land-assets/image-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    background-position: center;
+    min-height: 100vh;
+    
         
 }
 
@@ -102,7 +106,8 @@ h3 {
     color: #152D20;
     text-transform: uppercase;
     text-align: center;
-    padding: 80px;
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 .friends img {
@@ -112,7 +117,10 @@ h3 {
 
 .friends ul {
     display: flex;
-    
+}
+
+.friends li {
+    margin: 20px;
 }
 
 /* Third Section */
